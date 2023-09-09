@@ -16,14 +16,14 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 部署到 https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+# 部署到 https://superAwei.github.io
+# git push -f git@github.com:superAwei/superAwei.github.io.git master
 
-# 部署到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+# 部署到 https://superAwei.github.io/<REPO>
+# git push -f git@github.com:superAwei/lele_music.git master:gh-pages
 # 以這個專案來講就要改成這樣以下這樣，下面是走 ssh 模式
-# git push -f git@github.com:kelvinLin9/metahorse.git master:gh-pages
+# git push -f git@github.com:superAwei/metahorse.git master:gh-pages
 # 除此之外，也可以改走 HTTPS 模式
-git push -f https://github.com/kelvinLin9/music_tutor.git master:gh-pages
+git push -f https://github.com/superAwei/lele_music.git main:gh-pages
 
 cd -
