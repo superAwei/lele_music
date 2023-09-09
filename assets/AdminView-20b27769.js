@@ -1,0 +1,1 @@
+import{_ as o,r as t,o as _,c,e as n}from"./index-2b74f8b0.js";const s={},r={class:"min-height"};function a(i,d){const e=t("RouterView");return _(),c("div",r,[n(e)])}const m=o(s,[["render",a],["__scopeId","data-v-6ffb549c"]]);export{m as default};
